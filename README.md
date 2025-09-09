@@ -1,6 +1,6 @@
 # Rust Deep Learning Project
 
-A Rust-based deep learning project using the Candle framework for neural network experimentation and learning.
+A Rust-based deep learning project using the Candle framework for Autistic Spectrum Disorder classification from the Autistic Image Dataset ([Kaggle](https://www.kaggle.com/datasets/imrankhan77/autistic-children-facial-data-set)).
 
 ## Project Structure
 
@@ -49,12 +49,11 @@ DATA_DIR="/opt/datasets" cargo run
 MODELS_DIR="/opt/models" cargo run
 ```
 
-## Models
-- **Linear**: Simple linear classifier
-- **MLP**: Multi-layer perceptron with ReLU activation
-- **CNN**: Convolutional neural network (default)
+## Model
+- **CNN**: Convolutional neural network
+More models in progress
 
-Change the `model_type` variable in `main.rs` to switch between models.
+Note: Change the `model_type` variable in `main.rs` to switch between models.
 
 ## Dependencies
 - `candle-core`: Core tensor operations
