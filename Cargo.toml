@@ -1,0 +1,13 @@
+[package]
+name = "rust_dl"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0"
+image = "0.25"
+ndarray = "0.15"
+ndarray-npy = "0.8"
+candle-core = { git = "https://github.com/huggingface/candle.git", features = ["cuda"] }
+candle-nn = { git = "https://github.com/huggingface/candle.git" }
+

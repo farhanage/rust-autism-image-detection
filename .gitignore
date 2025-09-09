@@ -1,0 +1,25 @@
+# Rust
+/target/
+**/*.rs.bk
+
+# Datasets and caches
+/data/
+*.safetensors
+
+# Model files
+/models/
+
+# Outputs and logs
+/outputs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
