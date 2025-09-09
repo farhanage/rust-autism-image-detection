@@ -51,7 +51,7 @@ MODELS_DIR="/opt/models" cargo run
 
 ## Model
 - **CNN**: Convolutional neural network
-More models in progress
+- More models in progress
 
 Note: Change the `model_type` variable in `main.rs` to switch between models.
 
